@@ -1,6 +1,6 @@
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
 
-import { lusitana } from '@/app/ui/fonts';
+// import { lusitana } from '@/app/ui/fonts';
 
 // properties on nextjs docs: 
 //https://nextjs.org/docs/messages/google-fonts-missing-subsets
