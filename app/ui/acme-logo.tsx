@@ -1,12 +1,13 @@
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
 
-import { Lusitana } from 'next/font/google';
-import { preload } from 'react-dom';
+import { lusitana } from '@/app/ui/fonts';
 
-const lusitana = Lusitana({
-  weight: '400',
-  preload: false,
-});
+// properties on nextjs docs: 
+//https://nextjs.org/docs/messages/google-fonts-missing-subsets
+// const lusitana = Lusitana({
+//   weight: '400',
+//   preload: false,
+// });
 
 export default function AcmeLogo() {
   return (
